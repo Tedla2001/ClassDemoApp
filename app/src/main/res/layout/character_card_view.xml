@@ -40,32 +40,33 @@
             android:textSize="30sp"
             tools:text="Rick"/>
 
-        <TextView
-            android:id="@+id/character_age"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/character_name"
-            app:layout_constraintStart_toEndOf="@id/age_label"
-            android:textSize="15sp"
-            tools:text="49"/>
+<!--        <TextView-->
+<!--            android:id="@+id/character_age"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/character_name"-->
+<!--            app:layout_constraintStart_toEndOf="@id/age_label"-->
+<!--            android:textSize="15sp"-->
+<!--            tools:text="49"/>-->
 
-        <TextView
-            android:id="@+id/age_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/character_name"
-            app:layout_constraintStart_toStartOf="@id/character_name"
-            android:textSize="15sp"
-            android:text="@string/age_label"/>
+<!--        <TextView-->
+<!--            android:id="@+id/age_label"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/character_name"-->
+<!--            app:layout_constraintStart_toStartOf="@id/character_name"-->
+<!--            android:textSize="15sp"-->
+<!--            android:text="@string/age_label"/>-->
 
         <TextView
             android:id="@+id/character_club"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/character_age"
+            app:layout_constraintTop_toBottomOf="@id/character_name"
             app:layout_constraintStart_toStartOf="@id/character_name"
             android:textSize="15sp"
             tools:text="Arsenal"/>
+
         <TextView
             android:id="@+id/character_nation"
             android:layout_width="wrap_content"
